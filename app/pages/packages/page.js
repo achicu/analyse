@@ -1,6 +1,6 @@
 var app = require("../../app");
 
-var groupExtract = /^\.\/~\/([^\/]+)/;
+var groupExtract = /^\.{1,2}\/~\/([^\/]+)/;
 function sorter(a, b) { 
     return a.size - b.size 
 };

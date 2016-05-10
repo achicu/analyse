@@ -29,7 +29,8 @@ module.exports = function(grunt) {
 		"gh-pages": {
 			options: {
 				message: "Publish",
-				base: "dist"
+				base: "dist",
+				repo: "git@github.com:achicu/analyse.git"
 			},
 			src: ["**"]
 		},
